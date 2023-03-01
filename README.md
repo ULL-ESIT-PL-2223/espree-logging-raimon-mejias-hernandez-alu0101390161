@@ -215,7 +215,26 @@ A continuación se listan todos los scripts que se pueden ejecutar en el package
 ## Publicar el paquete en npmjs
 
 
+Para publicar el paquete enn npmjs primero se deben realizar los siguientes pasos:
 
+* Crear una cuenta en la página de npm
+* Modificar el package.json para añadir toda la información necesaria para el modulo
+* Comprobar que el modulo esta correctamente exportado
+* Crear una organización en npm
+* Ejecutar npm publish --access public la primera vez 
+
+![publish](docs/informe/npm_publish.png)
+
+### Comprobar si todo ha ido bien
+
+Tras publicarlo se debe comprobar que el paquete npmjs se ha publicado correctamente, para ello se realiza `npm install @alu0101390161/espree-logging`
+Dando como resultado:
+
+![npm_install](docs/informe/npm_install.png)
+
+Por ultimo para comprobar que se han exportado las funciones correctas se prueba el ejecutable generado utilizando `npx funlog`
+
+![npx_funlog](docs/informe/npx_funlog.png)
 
 ## References 
 
