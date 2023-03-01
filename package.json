@@ -7,7 +7,8 @@
         "funlog": "bin/log.js"
     },
     "scripts": {
-        "fill": "your scripts here"
+        "test": "mocha test/test.mjs",
+        "cov": "nyc npm run test"
     },
     "dependencies": {
         "acorn": "^8.8.2",
@@ -15,7 +16,8 @@
         "escodegen": "^2.0.0",
         "espree": "^9.4.1",
         "estraverse": "^5.2.0",
-        "underscore": "^1.12.0"
+        "underscore": "^1.12.0",
+        "nyc": "^15.1.0"
     },
     "version": "0.3.0",
     "devDependencies": {
