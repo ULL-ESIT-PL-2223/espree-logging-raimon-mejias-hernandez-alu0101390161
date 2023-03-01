@@ -1,0 +1,5 @@
+Entering aFunction(1) at line 1
+Entering bFunction(2) at line 2
+Entering cFunction(3) at line 3
+Entering <anonymous function>(4) at line 4
+Entering <anonymous function>(5) at line 5
