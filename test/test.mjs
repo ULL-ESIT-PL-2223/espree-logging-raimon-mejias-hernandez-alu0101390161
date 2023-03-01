@@ -26,7 +26,7 @@ async function getLog(inputFile, outputFile, expectedFile) {
   await transpile(inputFile, outputFile);
   const output = await fs.readFile(outputFile, 'utf-8');
   const expected = await fs.readFile(expectedFile, 'utf-8');
-  await fs.unlink(outputFile);
+  // await fs.unlink(outputFile);
   return [output, expected];  
 }
 
