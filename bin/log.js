@@ -1,5 +1,7 @@
 #!/usr/bin/env node
-
+/**
+ * 
+ */
 import { program } from "commander";
 import { createRequire } from "module";
 const require = createRequire(import.meta.url);
