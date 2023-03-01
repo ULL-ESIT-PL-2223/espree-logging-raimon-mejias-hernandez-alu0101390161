@@ -198,7 +198,7 @@ Por ultimo se realizan iterativamente los tests que se encuentran definidos en e
 
 Para la realización de esta práctica se ha pedido que en el package.json se indique el campo "type" con "module". Esto tiene un efecto negativo en la ejecución del estudio de cubrimiento del código con nyc, realizando una búsqueda en internet se encuentra que nyc no soporta la ejecución con el tipo module: 
 
-![problea_nyc](https://github.com/istanbuljs/nyc/issues/1353)
+[problea_nyc](https://github.com/istanbuljs/nyc/issues/1353)
 
 ## Realizar integración continua con GitHub Actions
 
