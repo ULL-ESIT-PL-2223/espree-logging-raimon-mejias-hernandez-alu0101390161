@@ -33,7 +33,7 @@ A continuación se detallan paso a paso todas las tareas realizadas
 
 ## Utilizar commander para la línea de comandos 
 
-Utilizando la libreria commander se puede realizar el paso de argumentos al programa de una manera sencilla y rápida.
+Utilizando la librería commander se puede realizar el paso de argumentos al programa de una manera sencilla y rápida.
 Indicando en `Program` Todos los argumentos y opciones que nuestro programa permite, realizando por ultimo una lectura de
 los argumentos del programa.
 
@@ -76,7 +76,7 @@ export async function transpile(inputFile, outputFile) {
   }
 }
 ```
-La función transpile es muy parecida a la de las prácticas anteriores, con la unica diferencia de realizar la llamada a la función addLogging, la cual
+La función transpile es muy parecida a la de las prácticas anteriores, con la única diferencia de realizar la llamada a la función addLogging, la cual
 es otra función que se debe implementar en esta práctica.
 
 ```JavaScript
@@ -94,7 +94,7 @@ export function addLogging(code) {
   return escodegen.generate(ast);
 }
 ```
-La función addLogging se encarga de general el AST del código JS leido originalmente, para luego utilizar la función traverse de la libreria estraverse para
+La función addLogging se encarga de general el AST del código JS leído originalmente, para luego utilizar la función traverse de la librería estraverse para
 realizar la modificación de los nodos de tipo función, llamando así a la función addBeforeCode.
 
 ```JavaScript
@@ -110,8 +110,8 @@ function addBeforeCode(node) {
   node.body.body = beforeNodes.concat(node.body.body);
 }
 ```
-La funcion addBeforeCode se encarga de conseguir toda la información necesaria para generar el console.log que se va a añadir justo debajo de la 
-declaración de la función, por ultimo modifica el AST original añadiendole a la función nuevos nodos en el body.
+La función addBeforeCode se encarga de conseguir toda la información necesaria para generar el console.log que se va a añadir justo debajo de la 
+declaración de la función, por ultimo modifica el AST original añadiéndole a la función nuevos nodos en el body.
 
 ### Indicar los valores de los argumentos
 
@@ -140,7 +140,7 @@ Se ha de añadir, a las condiciones del if dentro de la función traverse, la co
 
 ### Reto 2: Indicar el número de línea en la que se encuentra la función
 
-Para obtener el número de línea en la que se encuentra la función detectada se ha incluir en los parametros pasados a la función `espree.parse()` el objeto `{loc: true}`
+Para obtener el número de línea en la que se encuentra la función detectada se ha incluir en los parámetros pasados a la función `espree.parse()` el objeto `{loc: true}`
 Obteniendo así un AST que contiene los campos loc.start.line, consiguiendo así el número de línea de la función.
 
 ```JavaScript 

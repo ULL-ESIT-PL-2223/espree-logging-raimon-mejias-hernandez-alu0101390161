@@ -66,7 +66,7 @@ export function addLogging(code) {
  * @desc Insert a new node in the body of the parameter node
  * takes the name, line number and parameters of the function and 
  * creates the new console.log inside the function
- * @param {*} node - A node of type function(declaration, expression or arrow)
+ * @param {object} node - A node of type function(declaration, expression or arrow)
  */
 function addBeforeCode(node) {
   const name = (node.id)? node.id.name : '<anonymous function>';
