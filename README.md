@@ -166,7 +166,7 @@ Ejemplo de un comentario JSDoc para la función `addLogging`
 
 ## Tests and Covering
 
-Como se ha relizado en anteriores prácticas se ha utilizado la metodología de Stubbing para relizar modificaciones en el método console.log permitiendo así utilizarlo para realizar
+Como se ha realizado en anteriores prácticas se ha utilizado la metodología de Stubbing para realizar modificaciones en el método console.log permitiendo así utilizarlo para realizar
 las comprobaciones de los tests.
 
 ```JavaScript
@@ -202,7 +202,7 @@ Para la realización de esta práctica se ha pedido que en el package.json se in
 
 ## Realizar integración continua con GitHub Actions
 
-Utilizando el fichero creado en la práctica anterior se ha realizado la integración continua automatica con GitHub Actions 
+Utilizando el fichero creado en la práctica anterior se ha realizado la integración continua automática con GitHub Actions 
 
 ## Crear Scripts para ejecutar el programa
 
@@ -215,7 +215,7 @@ A continuación se listan todos los scripts que se pueden ejecutar en el package
 ## Publicar el paquete en npmjs
 
 
-Para publicar el paquete enn npmjs primero se deben realizar los siguientes pasos:
+Para publicar el paquete en npmjs primero se deben realizar los siguientes pasos:
 
 * Crear una cuenta en la página de npm
 * Modificar el package.json para añadir toda la información necesaria para el modulo

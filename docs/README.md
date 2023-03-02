@@ -33,8 +33,8 @@ export async function transpile(inputFile, outputFile) {
 
 ## Función addLogging
 
-La función addLogging toma como parametro una string que contenga código JavaScript y genera el AST 
-correspondiente, para luego llamar a la función traverse de la libreria estraverse, dentro se realiza un recorrido del árbol
+La función addLogging toma como parámetro una string que contenga código JavaScript y genera el AST 
+correspondiente, para luego llamar a la función traverse de la librería estraverse, dentro se realiza un recorrido del árbol
 ejecutando la función indicada en enter cada vez que se encuentra con un nuevo nodo.
 La función ejecutada será addBeforeCode y se llamará solamente con los nodos que contengan la información de las funciones.
 Por ultimo devolverá el nuevo AST producto de la modificación del AST original
